@@ -17,7 +17,7 @@ class Mikro:
 
 
 mikro = Mikro()
-api = connect(username='pauloh', password='est@paulo', host='177.66.116.134')
+api = connect(username='pauloh', password='est@paulo', host='XXX.XX.XXX.XXX')
 command = api(cmd='/ip/dns/print')
 mikro.talk(command)
 api.close()
